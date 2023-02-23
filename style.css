@@ -1,0 +1,108 @@
+.landing-container{
+    background-color: #231A36;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+}
+.landing-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+main{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    margin: 3rem;
+}
+.container-review{
+    margin-bottom: 3rem;
+    
+}
+.icons-1{
+    font-size: 5rem;
+    color: white;
+    padding: 3rem;
+}
+.icons-2 {
+    font-size: 5rem;
+}
+/* Nav styles */
+.nav-text{
+    font-size: 3rem;
+}
+/* FLEX STYLES */
+.container-1 {
+    display: flex;
+    padding-bottom: 2rem;
+    align-items: flex-end;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+}
+.icons {
+    display: inline;
+}
+.icon-top {
+    display: flex;
+    justify-content: center;
+}
+.icons-bottom{
+    display: flex;
+    justify-content: center;
+}
+.text-2{
+    text-align: center;
+}
+
+/* Flexing description */
+
+.planet-descriptions{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+/* flexing review */
+.review-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+/* flexing customer */
+.custy-head{
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 0;
+}
+.customers{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 3rem;
+}
+.customer-1, .customer-2, .customer-3{
+    padding: 1rem;
+}
+.p-custy{
+    padding: 1rem;
+}
