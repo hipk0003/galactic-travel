@@ -26,7 +26,7 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 nav ul li a:hover{
     color: wheat;
@@ -164,7 +164,7 @@ background-color: #CA895F;
     border-radius: 50%;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 850px) {
     
     nav{
         display: flex;
@@ -174,6 +174,9 @@ background-color: #CA895F;
         list-style-type: none;
         display: inline-block;
         padding: 2rem;
+    }
+    nav ul li a{
+        font-size: 2rem;
     }
     .landing-h1{
         font-size: 5rem;
