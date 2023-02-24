@@ -1,4 +1,39 @@
 /* Mobile styles */
+/* nav styles */
+.hero{
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: column;
+}
+.logo {
+    color: white;
+    font-size: 2rem;
+}
+span{
+    color: wheat;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+nav ul li a:hover{
+    color: wheat;
+    transition: .3s;
+}
+/* nav styles end */
+
 h2{
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
@@ -83,29 +118,6 @@ background-color: #CA895F;
     text-align: center;
     padding: 1rem;
 }
-/* nav styles */
-.nav-container{
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-}
-ul a{
-    list-style-type: none;
-    margin: 1rem;
-    padding: 1rem;
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-  }
-  li {
-    display: inline;
-  }
-  .nav-h1{
-      color: white;
-      font-weight: lighter;
-
-  }
 
 /* planet descriptions flex */
 .planet-descriptions {
@@ -150,6 +162,16 @@ ul a{
 }
 
 @media only screen and (min-width: 1000px) {
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 2rem;
+    }
     .landing-h1{
         font-size: 5rem;
     }
