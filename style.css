@@ -94,7 +94,7 @@ background-color: #CA895F;
 .planet-head-3 {
     color: #388659;
 }
-.landing-container {
+.main-container {
     background-color: #231A36;
     margin: 1rem;
 }
@@ -128,10 +128,13 @@ background-color: #CA895F;
 }
 
 /* review container flex */
+
 .review-container{
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    background-color: white;
+    background-size: 100% 100%;
 }
 
 .icons-2{
