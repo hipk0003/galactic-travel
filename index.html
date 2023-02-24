@@ -12,32 +12,18 @@
 <script src="https://kit.fontawesome.com/c4ee54b1a4.js" crossorigin="anonymous"></script>
     
 </head>
-<body>
+<body class="main-container">
     <section class="landing-container">
-        <header>
-            <nav class="navbar navbar-expand-lg ps-5 ms-5 mt-4">
-                <div class="container-fluid">
-                    <a class="navbar-brand text-light nav-text" href="#">Galactic Travels</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active text-light nav-text-2" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light nav-text-2" href="#">Travel</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light nav-text-2" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        <header class="header container">
+            <nav class="nav-container">
+            <h1 class="nav-h1">Galactic Travels</h1>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./planet.html">Travel</a></li>
+                  </ul>
             </nav>
         </header>
-        <main>
+        <main class="landing-container-2">
             <div class="container-1">
                 <div class="text-1">
                     <h1 class="text-light landing-h1">Explore the galaxy’s edge!</h1>
@@ -52,26 +38,29 @@
                             <i class="fa-solid fa-user-astronaut icons-1"></i>
                         </div>
                     </div>
-                    <div class="text-2">
-                        <h2 class="text-light">Journey Across the galaxy and explore the great wonders of the Star Wars Universe</h2>
+                    <div class="text-2-container">
+                        <h2 class="text-light text-2">Journey Across the galaxy and explore the great wonders of the Star Wars Universe</h2>
                     </div>
                 </div>
             </div>
             <div class="planet-descriptions">
                 <div class="jakku-des">
-                    <h2 class="text-light">Jakku</h2>
+                    <h2 class="planet-head-1">Jakku</h2>
                     <p class="text-light">For everyone who likes sand. If you don’t like sand, stay away!</p>
+                    <button class="button-planet-1">Learn More</button>
                 </div>
                 <div class="hoth-des">
-                    <h2 class="text-light">Hoth</h2>
+                    <h2 class="planet-head-2">Hoth</h2>
                     <p class="text-light">Freezing cold temperatures and dangerous Wompas.</p>
+                    <button class="button-planet-2">Learn More</button>
                 </div>
-                <div class="Naboo-des">
-                    <h2 class="text-light">Naboo</h2>
+                <div class="naboo-des">
+                    <h2 class="planet-head-3">Naboo</h2>
                     <p class="text-light">Explore the incredible architecture that’s made this planet a traveller’s favourite!</p>
+                    <button class="button-planet-3">Learn More</button>
                 </div>
             </div>
-        </section>
+    </section>
         <section class="container-review">
             <div class="review-container bg-light">
                 <div class="review-head">
@@ -94,22 +83,23 @@
             </div>
         </section>
         <section class="landing-container">
-            <div class="custy-head">
-                <h1 class="text-light">Customer Testimonials</h1>
+
+            <div class="custy-head-container">
+                <h1 class="text-light custy-head">Customer Testimonials</h1>
             </div>
             <div class="customer-container">
                 <div class="customers">
                     <div class="customer-1">
-                        <img src="./images/darth maul 1.png" alt="darth maul">
-                        <p class="text-light p-custy">“I went to Naboo using Galactic travels and I would 10/10 recommend. ”</p>
+                        <img src="./images/darth maul 1.png" alt="darth maul" class="maul">
+                        <p class="text-light p-custy">“I went to Naboo using Galactic travels and I would 10/10 recommend.” - Darth Maul, Sith Lord</p>
                     </div>
                     <div class="customer-2">
-                        <img src="./images/mando 1.png" alt="mando">
-                        <p class="text-light p-custy">“Took my son Grogu with me to Hoth on his birthday, what a memorable experience.”</p>
+                        <img src="./images/mando 1.png" alt="mando" class="mando">
+                        <p class="text-light p-custy">“Took my son Grogu with me to Hoth on his birthday, what a memorable experience.” - Mandalorian, Bounty Hunter</p>
                     </div>
                     <div class="customer-3">
-                        <img src="./images/obi wan 1.png" alt="obi wan">
-                        <p class="text-light p-custy">“I sent my son Luke to Endor, he said the trip was fantastic!”</p>
+                        <img src="./images/obi wan 1.png" alt="obi wan" class="obi">
+                        <p class="text-light p-custy">“I sent my son Luke to Endor, he said the trip was fantastic!” - Obi Wan Kenobi, Jedi Master</p>
                     </div>
                 </div>
             </div>
@@ -129,6 +119,7 @@
                 </div>
             </footer>
         </section>
+        
     </main>
 </body>
 </html>

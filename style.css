@@ -1,108 +1,221 @@
-.landing-container{
-    background-color: #231A36;
-}
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
-}
-.landing-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 6rem;
-}
+/* Mobile styles */
 h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+.text-2 {
+    font-weight: lighter;
 }
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
+    font-weight: lighter;
 }
-main{
-    padding-right: 3rem;
-    padding-left: 3rem;
-    padding-bottom: 3rem;
-    margin: 3rem;
+.button-planet-1{
+background-color: #CA895F;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 20%;
 }
-.container-review{
-    margin-bottom: 3rem;
-    
+.button-planet-2{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 20%;
+  }
+  .button-planet-3{
+    background-color: #388659;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 20%;
+  }
+.planet-head-1, .planet-head-2, .planet-head-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+.planet-head-1 {
+    color: #CA895F;
+}
+.planet-head-2 {
+    color: white;
+}
+.planet-head-3 {
+    color: #388659;
+}
+.landing-container {
+    background-color: #231A36;
+    margin: 1rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .icons-1{
     font-size: 5rem;
-    color: white;
-    padding: 3rem;
+    color: #AFDEDC;
+    padding: 1rem;
 }
-.icons-2 {
-    font-size: 5rem;
-}
-/* Nav styles */
-.nav-text{
+.landing-h1{
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
 }
-/* FLEX STYLES */
-.container-1 {
+.text-2 {
+    text-align: center;
+    padding: 1rem;
+}
+/* nav styles */
+.nav-container{
     display: flex;
-    padding-bottom: 2rem;
-    align-items: flex-end;
+    flex-direction: row;
+    padding: 1rem;
 }
+ul a{
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  li {
+    display: inline;
+  }
+  .nav-h1{
+      color: white;
+      font-weight: lighter;
 
-.icons-container{
+  }
+
+/* planet descriptions flex */
+.planet-descriptions {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    justify-content: center;
-}
-.icons {
-    display: inline;
-}
-.icon-top {
-    display: flex;
-    justify-content: center;
-}
-.icons-bottom{
-    display: flex;
-    justify-content: center;
-}
-.text-2{
+    padding: 1rem;
     text-align: center;
 }
 
-/* Flexing description */
-
-.planet-descriptions{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
-/* flexing review */
+/* review container flex */
 .review-container{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+}
+
+.icons-2{
+    font-size: 5rem;
+    color: black;
+    padding: 1rem;
+}
+.review-head{
     text-align: center;
 }
 .reviews{
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-}
-/* flexing customer */
-.custy-head{
     text-align: center;
-    padding: 3rem;
-    padding-bottom: 0;
+}
+/* customer testimonial styles */
+.custy-head {
+    text-align: center;
+    padding: 1rem;
 }
 .customers{
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 3rem;
-}
-.customer-1, .customer-2, .customer-3{
+    flex-direction: column;
     padding: 1rem;
+    text-align:  center;
 }
-.p-custy{
+.maul, .obi, .mando{
     padding: 1rem;
+    border-radius: 50%;
 }
+
+@media only screen and (min-width: 1000px) {
+    .landing-h1{
+        font-size: 5rem;
+    }
+    .landing-container{
+        padding: 3rem;
+        padding-top: 0%;
+    }
+    .container-1{
+        display: flex;
+        padding: 1rem;
+        justify-content: flex-end;
+        
+    }
+    .text-1{
+        display: flex;
+        align-items: center;
+    }
+    .icons-1 {
+        padding: 2rem;
+    }
+    .planet-descriptions{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+        align-items: flex-end;
+    }
+    .jakku-des, .hoth-des, .naboo-des{
+        padding: 1rem;
+    }
+    .customers{
+        display: flex;
+        flex-direction: row;
+    }
+    .customer-1, .customer-2, .customer-3{
+        padding: 1rem;
+    }
+    .maul, .obi, .mando{
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+    }
+  }
+
+  /* TRAVEL PAGE STYLES MOBILE */
+
+  .pl-head, .pl-p{
+      color: white;
+  }
+  .pl-img {
+      width: 500px;
+      height: auto;
+      border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
