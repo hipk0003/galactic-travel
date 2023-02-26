@@ -223,6 +223,16 @@ background-color: #CA895F;
         height: auto;
         border-radius: 50%;
     }
+    .reviews{
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .review-1, .review-2, .review-3{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        
+    }
   }
 
   /* TRAVEL PAGE STYLES MOBILE */
