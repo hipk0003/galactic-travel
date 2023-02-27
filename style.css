@@ -51,7 +51,7 @@ p{
     font-weight: lighter;
 }
 .button-planet-1{
-background-color: #CA895F;
+background-color: wheat;
   border: none;
   color: white;
   padding: 1rem;
@@ -62,7 +62,7 @@ background-color: #CA895F;
   border-radius: 20%;
 }
 .button-planet-2{
-    background-color: white;
+    background-color: wheat;
     border: none;
     color: black;
     padding: 1rem;
@@ -73,7 +73,7 @@ background-color: #CA895F;
     border-radius: 20%;
   }
   .button-planet-3{
-    background-color: #388659;
+    background-color: wheat;
     border: none;
     color: white;
     padding: 1rem;
@@ -89,13 +89,13 @@ background-color: #CA895F;
     padding-top: 1rem;
 }
 .planet-head-1 {
-    color: #CA895F;
+    color: wheat;
 }
 .planet-head-2 {
-    color: white;
+    color: wheat;
 }
 .planet-head-3 {
-    color: #388659;
+    color: wheat;
 }
 .main-container {
     background-color: #231A36;
@@ -108,7 +108,7 @@ background-color: #CA895F;
 }
 .icons-1{
     font-size: 5rem;
-    color: #AFDEDC;
+    color: white;
     padding: 1rem;
 }
 .landing-h1{
