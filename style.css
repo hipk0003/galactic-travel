@@ -53,7 +53,7 @@ p{
 .button-planet-1{
 background-color: wheat;
   border: none;
-  color: white;
+  color: black;
   padding: 1rem;
   text-align: center;
   text-decoration: none;
@@ -75,7 +75,7 @@ background-color: wheat;
   .button-planet-3{
     background-color: wheat;
     border: none;
-    color: white;
+    color: black;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
