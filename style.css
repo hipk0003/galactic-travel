@@ -9,6 +9,7 @@ nav {
     justify-content: space-between;
     padding: 1rem;
     flex-direction: column;
+    background-color: darkgrey;
 }
 .logo {
     color: white;
@@ -99,8 +100,9 @@ background-color: wheat;
 }
 .main-container {
     background-color: #231A36;
-    margin: 1rem;
+    
 }
+
 .icons{
     display: flex;
     align-items: center;
@@ -167,6 +169,24 @@ background-color: wheat;
     border-radius: 50%;
 }
 
+.landing-container-2 {
+    position: relative;
+    
+}
+
+.container-1::after{
+    background-image: url(./images/spacex--p-KCm6xB9I-unsplash.jpg);
+    background-size: cover;
+    opacity: 0.25;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
 @media only screen and (min-width: 850px) {
     
     nav{
@@ -186,12 +206,12 @@ background-color: wheat;
         font-size: 5rem;
     }
     .landing-container{
-        padding: 1rem;
+        padding: rem;
         padding-top: 0%;
     }
     .container-1{
         display: flex;
-        padding: 1rem;
+        padding: 5rem;
         justify-content: flex-end;
         
     }
